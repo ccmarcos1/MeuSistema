@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 
@@ -14,6 +15,6 @@ namespace MVCMeuSistema.Models
             public string VALOR { get; set; }
             public int QUANTIDADE { get; set; }
             public DateTime DATAHORA { get; set; }
-            
-    }
+
+     
 }

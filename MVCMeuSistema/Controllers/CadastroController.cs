@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MVCMeuSistema.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,6 +12,8 @@ namespace MVCMeuSistema.Controllers
         // GET: Cadastro
         public ActionResult Produto()
         {
+            var lista = Produtos.GetProdutos();
+            ViewBag.Lista = lista;
             return View();
         }
         public ActionResult Cliente()

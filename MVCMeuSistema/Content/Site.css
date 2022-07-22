@@ -22,3 +22,9 @@ select,
 textarea {
     max-width: 280px;
 }
+.QuantidadeEmAlerta{
+    color: red;
+}
+.QuantidadeNormal{
+    color: green;
+}
